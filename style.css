@@ -3,104 +3,149 @@
     --green: aquamarine;
     --bled: #ddadaf;
 }
-body{
+.pos{
+    position: relative;
+}
+.m{
     margin: 0;
+}
+.w-100{
     width: 100%;
 }
-.les{
-    background-image: url(https://old.bigenc.ru/media/2016/10/27/1235208547/19117.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 20px;
-    background-position: center;
-    background-size: cover;
-    height: 700px;
-    color: var(--light);
+.df{
     display: flex;
 }
-h1{
-    position: relative;
-    left: 20%;
-    top: 250px;
-    font-size: 40px;
+.bgr{
+    background-repeat: no-repeat;
 }
-h3{
+.bgs{
+    background-size: cover;
+}
+.m-top-20{
+    margin-top: 20px;
+}
+.bgp{
+    background-position: center;
+}
+
+.h-700{
+    height: 700px;
+}
+
+.les{
+    background-image: url(https://old.bigenc.ru/media/2016/10/27/1235208547/19117.jpg);
+    color: var(--light);
+}
+
+.l20pr{
+    left: 20%;
+}
+
+.t-250{
+    top: 250px;
+}
+
+.fs-20{
     font-size: 20px;
 }
-.kartochka1{
+.fs-40{
+    font-size: 40px;
+}
+
+.t-420{
     top: 420px;
+}
+.r-600{
     right: 600px;
 }
-.kartochka2{
+
+.t-101{
     top: 101px;
+}
+.r-380{
     right: 380px;
 }
-.kartochka3{
+
+.bot-220{
     bottom: 220px;
+}
+.r-170{
     right: 170px;
 }
-.kartochka4{
 
+.bot-540{
     bottom: 540px;
+}
+.l-50{
     left: 50px;
 }
 
-.kartochki{
+.wpr-30{
     width: 30%;
-    height: 300px;
-    position: relative;
 }
-.btn{
-    border-radius: 10px;
-    margin-top: 10px;
+
+.h-300{
+    height: 300px;
+}
+
+.h-30{
     height: 30px;
+}
+.w-120{
     width: 120px;
 }
-.kartonki{
-    width: 100%;
-    margin-top: 20px;
+
+.h-500{
     height: 500px;
-    display: flex;
 }
-.block1{
+
+.bgi-el{
     background-image: url(https://xn--80aeaj2aesddcjte.kz/wp-content/uploads/2017/12/christmas-tree-2991189_960_720.jpg);
-    background-position: cover;
+}
+.bgs-100{
     background-size: 100%;
+}
+.h-250{
     height: 250px;
 }
 
-.block2{
+.h-180{
     height: 180px;
 }
 
-.block3{
-    height: 180px;
-}
-.block4{
+.bgi-al{
     background-image: url(https://aif-s3.aif.ru/images/013/770/2bb1d2d114f1e6cbc5b59c428462c5d6.jpg);
-    background-position: cover;
-    height: 250px;
 }
 
-.blocks{
-    position: relative;
+.w-50{
     width: 50%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 1px solid silver;
-    background-repeat: no-repeat;
 }
 
-.left-200{
+.m-top-10{
+    margin-top: 10px;
+}
+
+.m-bot-10{
+    margin-bottom: 10px;
+}
+
+.brad-10{
+    border-radius: 10px;
+}
+
+.bor{
+    border: 1px solid silver;
+}
+
+.l-200{
     left: 200px;
 }
 
-.left-720{
+.l-720{
     left: 720px;
 }
 
-.bot{
+.bot-450{
     bottom: 450px;
 }
 
